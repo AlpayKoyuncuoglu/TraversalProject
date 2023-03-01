@@ -4,14 +4,159 @@
     "D:\\.netPro\\TraversalCoreProject\\TraversalCoreProject\\TraversalCoreProject.csproj": {}
   },
   "projects": {
-    "D:\\.netPro\\TraversalCoreProject\\TraversalCoreProject\\TraversalCoreProject.csproj": {
+    "D:\\.netPro\\TraversalCoreProject\\BusinessLayer\\BusinessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\.netPro\\TraversalCoreProject\\TraversalCoreProject\\TraversalCoreProject.csproj",
-        "projectName": "TraversalCoreProject",
-        "projectPath": "D:\\.netPro\\TraversalCoreProject\\TraversalCoreProject\\TraversalCoreProject.csproj",
+        "projectUniqueName": "D:\\.netPro\\TraversalCoreProject\\BusinessLayer\\BusinessLayer.csproj",
+        "projectName": "BusinessLayer",
+        "projectPath": "D:\\.netPro\\TraversalCoreProject\\BusinessLayer\\BusinessLayer.csproj",
         "packagesPath": "C:\\Users\\akoyuncuoglu.ESTERTEKNOLOJI\\.nuget\\packages\\",
-        "outputPath": "D:\\.netPro\\TraversalCoreProject\\TraversalCoreProject\\obj\\",
+        "outputPath": "D:\\.netPro\\TraversalCoreProject\\BusinessLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\akoyuncuoglu.ESTERTEKNOLOJI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\akoyuncuoglu.ESTERTEKNOLOJI\\.nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\.netPro\\TraversalCoreProject\\DataAccessLayer\\DataAccessLayer.csproj": {
+                "projectPath": "D:\\.netPro\\TraversalCoreProject\\DataAccessLayer\\DataAccessLayer.csproj"
+              },
+              "D:\\.netPro\\TraversalCoreProject\\EntityLayer\\EntityLayer.csproj": {
+                "projectPath": "D:\\.netPro\\TraversalCoreProject\\EntityLayer\\EntityLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\.netPro\\TraversalCoreProject\\DataAccessLayer\\DataAccessLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\.netPro\\TraversalCoreProject\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectName": "DataAccessLayer",
+        "projectPath": "D:\\.netPro\\TraversalCoreProject\\DataAccessLayer\\DataAccessLayer.csproj",
+        "packagesPath": "C:\\Users\\akoyuncuoglu.ESTERTEKNOLOJI\\.nuget\\packages\\",
+        "outputPath": "D:\\.netPro\\TraversalCoreProject\\DataAccessLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\akoyuncuoglu.ESTERTEKNOLOJI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\akoyuncuoglu.ESTERTEKNOLOJI\\.nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\.netPro\\TraversalCoreProject\\EntityLayer\\EntityLayer.csproj": {
+                "projectPath": "D:\\.netPro\\TraversalCoreProject\\EntityLayer\\EntityLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.12, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\.netPro\\TraversalCoreProject\\EntityLayer\\EntityLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\.netPro\\TraversalCoreProject\\EntityLayer\\EntityLayer.csproj",
+        "projectName": "EntityLayer",
+        "projectPath": "D:\\.netPro\\TraversalCoreProject\\EntityLayer\\EntityLayer.csproj",
+        "packagesPath": "C:\\Users\\akoyuncuoglu.ESTERTEKNOLOJI\\.nuget\\packages\\",
+        "outputPath": "D:\\.netPro\\TraversalCoreProject\\EntityLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -43,6 +188,83 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\.netPro\\TraversalCoreProject\\TraversalCoreProject\\TraversalCoreProject.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\.netPro\\TraversalCoreProject\\TraversalCoreProject\\TraversalCoreProject.csproj",
+        "projectName": "TraversalCoreProject",
+        "projectPath": "D:\\.netPro\\TraversalCoreProject\\TraversalCoreProject\\TraversalCoreProject.csproj",
+        "packagesPath": "C:\\Users\\akoyuncuoglu.ESTERTEKNOLOJI\\.nuget\\packages\\",
+        "outputPath": "D:\\.netPro\\TraversalCoreProject\\TraversalCoreProject\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\akoyuncuoglu.ESTERTEKNOLOJI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\akoyuncuoglu.ESTERTEKNOLOJI\\.nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\.netPro\\TraversalCoreProject\\BusinessLayer\\BusinessLayer.csproj": {
+                "projectPath": "D:\\.netPro\\TraversalCoreProject\\BusinessLayer\\BusinessLayer.csproj"
+              },
+              "D:\\.netPro\\TraversalCoreProject\\DataAccessLayer\\DataAccessLayer.csproj": {
+                "projectPath": "D:\\.netPro\\TraversalCoreProject\\DataAccessLayer\\DataAccessLayer.csproj"
+              },
+              "D:\\.netPro\\TraversalCoreProject\\EntityLayer\\EntityLayer.csproj": {
+                "projectPath": "D:\\.netPro\\TraversalCoreProject\\EntityLayer\\EntityLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.12, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
