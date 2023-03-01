@@ -1,0 +1,12 @@
+D:\.netPro\TraversalCoreProject\EntityLayer\bin\Debug\net5.0\EntityLayer.deps.json
+D:\.netPro\TraversalCoreProject\EntityLayer\bin\Debug\net5.0\EntityLayer.dll
+D:\.netPro\TraversalCoreProject\EntityLayer\bin\Debug\net5.0\EntityLayer.pdb
+D:\.netPro\TraversalCoreProject\EntityLayer\obj\Debug\net5.0\EntityLayer.csproj.AssemblyReference.cache
+D:\.netPro\TraversalCoreProject\EntityLayer\obj\Debug\net5.0\EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\.netPro\TraversalCoreProject\EntityLayer\obj\Debug\net5.0\EntityLayer.AssemblyInfoInputs.cache
+D:\.netPro\TraversalCoreProject\EntityLayer\obj\Debug\net5.0\EntityLayer.AssemblyInfo.cs
+D:\.netPro\TraversalCoreProject\EntityLayer\obj\Debug\net5.0\EntityLayer.csproj.CoreCompileInputs.cache
+D:\.netPro\TraversalCoreProject\EntityLayer\obj\Debug\net5.0\EntityLayer.dll
+D:\.netPro\TraversalCoreProject\EntityLayer\obj\Debug\net5.0\refint\EntityLayer.dll
+D:\.netPro\TraversalCoreProject\EntityLayer\obj\Debug\net5.0\EntityLayer.pdb
+D:\.netPro\TraversalCoreProject\EntityLayer\obj\Debug\net5.0\ref\EntityLayer.dll
