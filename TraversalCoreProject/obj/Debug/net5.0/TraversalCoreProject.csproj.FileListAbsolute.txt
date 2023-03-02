@@ -163,3 +163,6 @@ D:\.netPro\TraversalCoreProject\TraversalCoreProject\obj\Debug\net5.0\Razor\View
 D:\.netPro\TraversalCoreProject\TraversalCoreProject\obj\Debug\net5.0\Razor\Views\LayoutPartial\_HeaderPartial.cshtml.g.cs
 D:\.netPro\TraversalCoreProject\TraversalCoreProject\obj\Debug\net5.0\Razor\Views\LayoutPartial\_NavbarPartial.cshtml.g.cs
 D:\.netPro\TraversalCoreProject\TraversalCoreProject\obj\Debug\net5.0\Razor\Views\LayoutPartial\_FooterPartial.cshtml.g.cs
+D:\.netPro\TraversalCoreProject\TraversalCoreProject\obj\Debug\net5.0\Razor\Views\LayoutPartial\_ScriptsPartial.cshtml.g.cs
+D:\.netPro\TraversalCoreProject\TraversalCoreProject\obj\Debug\net5.0\Razor\Views\Shared\Components\_SliderPartial\Default.cshtml.g.cs
+D:\.netPro\TraversalCoreProject\TraversalCoreProject\obj\Debug\net5.0\Razor\Views\Shared\Components\_PopularDestinationsPartial\Default.cshtml.g.cs
