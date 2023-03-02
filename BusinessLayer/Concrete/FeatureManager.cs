@@ -1,6 +1,5 @@
 ﻿using BusinessLayer.Abstract;
 using DataAccessLayer.Abstract;
-using DataAccessLayer.EntityFramework;
 using EntityLayer.Concrete;
 using System;
 using System.Collections.Generic;
@@ -10,35 +9,35 @@ using System.Threading.Tasks;
 
 namespace BusinessLayer.Concrete
 {
-    public class DestinationManager : IDestinationService
+    public class FeatureManager : IFeatureService
     {
-        IDestinationDal _destinationDal;
-        public DestinationManager(IDestinationDal destinationDal)
+        IFeatureDal _featureDal;
+        public FeatureManager(IFeatureDal featureDal)
         {
-            _destinationDal = destinationDal;
+            _featureDal = featureDal;
         }
 
-        public void TAdd(Destination t)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void TDelete(Destination t)
+        public void TAdd(Feature t)
         {
             throw new NotImplementedException();
         }
 
-        public Destination TGetById(int id)
+        public void TDelete(Feature t)
         {
             throw new NotImplementedException();
         }
 
-        public List<Destination> TGetList()
+        public Feature TGetById(int id)
         {
-            return _destinationDal.GetList();
+            throw new NotImplementedException();
         }
 
-        public void TUpdate(Destination t)
+        public List<Feature> TGetList()
+        {
+            return _featureDal.GetList();
+        }
+
+        public void TUpdate(Feature t)
         {
             throw new NotImplementedException();
         }
